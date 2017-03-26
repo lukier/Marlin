@@ -51,9 +51,9 @@
 
 
 // If you want you can define your own set of delays in Configuration.h
-//#define ST7920_DELAY_1 DELAY_0_NOP
-//#define ST7920_DELAY_2 DELAY_0_NOP
-//#define ST7920_DELAY_3 DELAY_0_NOP
+#define ST7920_DELAY_1 DELAY_1_NOP
+#define ST7920_DELAY_2 DELAY_2_NOP
+#define ST7920_DELAY_3 DELAY_2_NOP
 
 #if F_CPU >= 20000000
   #define CPU_ST7920_DELAY_1 DELAY_0_NOP

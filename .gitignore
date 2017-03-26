@@ -33,6 +33,8 @@ applet/
 #
 # Misc
 #
+obj
+*.kdev4
 *~
 *.orig
 *.rej
